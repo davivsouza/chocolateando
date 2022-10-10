@@ -1,0 +1,81 @@
+
+#slogan-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 50vh;
+  background-color: #572814;
+  background-image: url('/assets/wallpapers/textures.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 12px;
+  padding: 20px;
+}
+#slogan-container img{
+  width: 200px;
+  display: none;
+}
+
+.slogan-flex{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#slogan-container .slogan-title{
+ 
+  font-size: 30px;
+  text-align: center;
+  -webkit-text-stroke: 1px #fff;
+  font-family: 'Poppins';
+  color: #572814;
+}
+
+.whatsapp-span{
+  font-family: 'CooperHewitt';
+  font-size: 14px;
+  background:#6B4E3C;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  
+  color: #fff;
+}
+
+.whatsapp-span strong{
+  color: #C3922E;
+}
+
+
+#cards-container{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  padding: 10px;
+}
+.card-item img{
+  width: 30px;
+  height: 30px;
+}
+.card-item{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-family: 'Inter';
+  font-weight: 200;
+  gap: 10px;
+}
+
+.card-item p {
+  font-size: 12px;
+}
+.card-item span{
+  color: #8e8d8d;
+  font-size: 12px;
+}
