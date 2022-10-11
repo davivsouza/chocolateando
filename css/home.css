@@ -50,6 +50,7 @@
 
 
 #cards-container{
+  width: 90%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -78,4 +79,26 @@
 .card-item span{
   color: #8e8d8d;
   font-size: 12px;
+}
+
+.about-us{
+  background: #272123;
+  /* background-image: url('/assets/wallpapers/brigadeiros-home.png');
+  background-position: center left;
+  background-repeat: no-repeat; */
+  display: flex;
+  padding: 25px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+
+
+.about-us-p{
+  color: #969696;
+  font-size: 13px;
+  text-align: justify;
+  font-family: 'Inter';
+  font-weight: 200;
+  line-height: 1.5;
 }

@@ -34,6 +34,7 @@
 
 .menu-items a {
   text-decoration: none;
+  font-family: 'Inter';
   color: #fff;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
@@ -114,6 +115,7 @@
   .navbar .menu-items {
     padding-top: 100px;
     background: #744F1A;
+    z-index: 999999999;
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -126,7 +128,7 @@
 
   .navbar .menu-items li {
     margin-bottom: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
   }
 

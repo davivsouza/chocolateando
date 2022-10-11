@@ -1,0 +1,70 @@
+.achocolateando-header{
+  background-color: #272123;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+
+
+}
+
+#achocolateando-container img{
+  width: 350px;
+}
+
+#achocolateando-cards{
+  background-image: url('/assets/wallpapers/achocolateando.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 100vh;
+  padding: 20px;
+  z-index: -3;
+  
+}
+
+.background-opacity{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  background-color: #00000094;
+  z-index: -2;
+}
+.achocolateando-card-item{
+  flex: 1;
+  line-height: 1.5;
+  padding: 20px;
+  background: #0c0a1094;
+  color: #fff;
+  z-index: -1;
+}
+
+.card-title{
+  font-size: 20px;
+  font-family: 'Inter';
+}
+
+.card-description{
+  font-size: 14px;
+  font-family: 'Inter';
+}
+
+.achocolateando-card-item.last-item {
+  background: none;
+}
+.achocolateando-card-item h1{
+  font-weight: 200;
+  font-family: 'Inter';
+  color: #fff;
+}
