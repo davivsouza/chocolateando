@@ -69,3 +69,16 @@ body {
   font-weight: 200;
 }
 
+
+@media screen and (min-width:1024px) {
+  .form-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .contact-form input, textarea {
+    width: 600px;
+  }
+
+}
